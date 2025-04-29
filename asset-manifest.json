@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/hack-defence/static/css/main.c74cfd78.css",
-    "main.js": "/hack-defence/static/js/main.6c63e589.js",
+    "main.js": "/hack-defence/static/js/main.cf72e3b8.js",
     "static/js/453.db15aafa.chunk.js": "/hack-defence/static/js/453.db15aafa.chunk.js",
     "static/media/Oxanium-VariableFont_wght.ttf": "/hack-defence/static/media/Oxanium-VariableFont_wght.50bb18b058c797a89438.ttf",
     "index.html": "/hack-defence/index.html",
     "main.c74cfd78.css.map": "/hack-defence/static/css/main.c74cfd78.css.map",
-    "main.6c63e589.js.map": "/hack-defence/static/js/main.6c63e589.js.map",
+    "main.cf72e3b8.js.map": "/hack-defence/static/js/main.cf72e3b8.js.map",
     "453.db15aafa.chunk.js.map": "/hack-defence/static/js/453.db15aafa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c74cfd78.css",
-    "static/js/main.6c63e589.js"
+    "static/js/main.cf72e3b8.js"
   ]
 }
