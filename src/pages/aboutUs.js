@@ -14,7 +14,7 @@ const AboutUs = () => {
                     Mauris eleifend velit a pretium iaculis. Donec sagittis velit et magna euismod, vel aliquet nulla
                     malesuada. Nunc pharetra massa lectus, a fermentum arcu volutpat vel.</p>
                 <div class="mt-8">
-                    <a href="#" class="text-blue-500 hover:text-blue-600 font-medium">Learn more about us
+                    <a href="#" class="text-green-500 hover:text-blue-600 font-medium">Learn more about us
                         <span class="ml-2">&#8594;</span></a>
                 </div>
             </div>

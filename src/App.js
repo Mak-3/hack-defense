@@ -17,26 +17,29 @@ import PenetrationTesting from './pages/servicesInfo/penetrationTesting';
 function App() {
   return (
     <div className="bg-black text-white">
-      <Router>
+      <Router basename="/hack-defence">
         <Navbar />
-        
-        <section id="home">
-          <HomePage />
-        </section>
-        
-        <section id="about">
-          <AboutUs />
-        </section>
-        
-        <section id="services">
-          <Services />
-        </section>
-        
-        <section id="contact">
-          <ContactUs />
-        </section>
 
         <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <section id="home">
+                  <HomePage />
+                </section>
+                <section id="about">
+                  <AboutUs />
+                </section>
+                <section id="services">
+                  <Services />
+                </section>
+                <section id="contact">
+                  <ContactUs />
+                </section>
+              </>
+            }
+          />
           <Route path="/services/grc" element={<GRC />} />
           <Route path="/services/cybersecurity-maturity-assessment" element={<CybersecurityMaturityAssessment />} />
           <Route path="/services/data-privacy" element={<DataPrivacy />} />
@@ -44,7 +47,7 @@ function App() {
           <Route path="/services/cybersecurity-for-startups" element={<CybersecurityForStartups />} />
           <Route path="/services/penetration-testing" element={<PenetrationTesting />} />
         </Routes>
-        
+
         <Footer />
       </Router>
     </div>

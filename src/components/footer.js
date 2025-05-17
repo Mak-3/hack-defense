@@ -10,7 +10,7 @@ const Footer = () => {
           <ul className="flex flex-col sm:flex-row items-center gap-5 sm:gap-12">
             <li>
               <a
-                href="/"
+                href="/hack-defence"
                 className="text-lg font-normal text-gray-300 transition-all duration-300 hover:text-white focus-within:text-white focus-within:outline-0"
               >
                 Home
@@ -18,7 +18,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#about"
+                href="/hack-defence#about"
                 className="text-lg font-normal text-gray-300 transition-all duration-300 hover:text-white focus-within:text-white focus-within:outline-0"
               >
                 About
@@ -26,7 +26,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#contact"
+                href="/hack-defence#contact"
                 className="text-lg font-normal text-gray-300 transition-all duration-300 hover:text-white focus-within:text-white focus-within:outline-0"
               >
                 Contact
@@ -34,7 +34,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#services"
+                href="/hack-defence#services"
                 className="text-lg font-normal text-gray-300 transition-all duration-300 hover:text-white focus-within:text-white focus-within:outline-0"
               >
                 Services

@@ -17,7 +17,7 @@ const ContactUs = () => {
               📧 Email:{" "}
               <a
                 href="mailto:support@example.com"
-                className="text-blue-500 hover:underline"
+                className="text-green-500 hover:underline"
               >
                 support@example.com
               </a>
@@ -29,7 +29,7 @@ const ContactUs = () => {
                 href="https://linkedin.com/in/your-profile"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:underline"
+                className="text-green-500 hover:underline"
               >
                 linkedin.com/in/your-profile
               </a>

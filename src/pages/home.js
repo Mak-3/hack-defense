@@ -31,7 +31,7 @@ const HomePage = () => {
                   Protect your business with the most advanced technologies in
                   the industry.
                 </p>
-                <button className="px-6 py-3 bg-blue-400 text-white text-lg font-semibold rounded-lg transition duration-300 hover:bg-blue-500">
+                <button className="px-6 py-3 bg-green-400 text-white text-lg font-semibold rounded-lg transition duration-300 hover:bg-green-500">
                   Learn More
                 </button>
               </div>
