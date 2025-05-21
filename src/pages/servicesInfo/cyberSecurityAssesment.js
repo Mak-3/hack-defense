@@ -1,4 +1,4 @@
-import React from "react";
+import cybersecurityMaturityFramework from "../../assets/images/services/cybersecurity-maturity-framework.jpg";
 
 const CybersecurityMaturityAssessment = () => {
   return (
@@ -118,6 +118,11 @@ const CybersecurityMaturityAssessment = () => {
             capabilities to stay ahead of emerging threats.
           </li>
         </ul>
+        <img
+          src={cybersecurityMaturityFramework}
+          alt="Cybersecurity Maturity Framework"
+          className="w-auto max-h-[500px] object-cover rounded-lg shadow-md"
+        />
       </section>
 
       <section className="max-w-4xl mx-auto space-y-8 text-gray-300 text-base md:text-lg leading-relaxed">

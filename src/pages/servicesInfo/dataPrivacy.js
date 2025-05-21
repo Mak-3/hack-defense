@@ -1,4 +1,5 @@
-import React from "react";
+import dataProtection from "../../assets/images/services/data-protection.jpg";
+import dataProtectionLaws from "../../assets/images/services/data-protection-laws.jpg";
 
 const DataPrivacy = () => {
   return (
@@ -40,6 +41,11 @@ const DataPrivacy = () => {
             streamline operations.
           </li>
         </ul>
+        <img
+          src={dataProtection}
+          alt="Data Protection"
+          className="w-auto max-h-[400px] object-cover rounded-lg shadow-md"
+        />
       </section>
 
       <section className="max-w-4xl mx-auto space-y-8 text-gray-300 text-base md:text-lg leading-relaxed">
@@ -81,6 +87,11 @@ const DataPrivacy = () => {
             in Japan.
           </li>
         </ul>
+        <img
+          src={dataProtectionLaws}
+          alt="Data Protection Laws"
+          className="w-auto max-h-[500px] object-cover rounded-lg shadow-md"
+        />
       </section>
 
       <section className="max-w-4xl mx-auto space-y-8 text-gray-300 text-base md:text-lg leading-relaxed">

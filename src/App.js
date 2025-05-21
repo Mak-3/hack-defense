@@ -17,7 +17,7 @@ import PenetrationTesting from './pages/servicesInfo/penetrationTesting';
 function App() {
   return (
     <div className="bg-black text-white">
-      <Router basename="/hack-defence">
+      <Router basename="/hack-defense">
         <Navbar />
 
         <Routes>

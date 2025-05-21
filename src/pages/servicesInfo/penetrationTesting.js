@@ -1,4 +1,6 @@
 import React from "react";
+import penetrationTestingServices from "../../assets/images/services/penetration-testing-services.jpg";
+import securityAssesment from "../../assets/images/services/security-assesment.jpg";
 
 const PenetrationTesting = () => {
   return (
@@ -20,6 +22,11 @@ const PenetrationTesting = () => {
         <h3 className="text-3xl font-semibold mb-6 text-white">
           Our Penetration Testing Process
         </h3>
+        <img
+          src={securityAssesment}
+          alt="Security Assessment"
+          className="w-full md:w-auto md:h-[400px] object-cover rounded-lg shadow-md"
+        />
         <div className="space-y-10 text-left">
           <div>
             <h4 className="text-xl font-bold text-white">
@@ -81,6 +88,12 @@ const PenetrationTesting = () => {
         <h3 className="text-3xl font-semibold mb-6 text-white">
           Comprehensive Penetration Testing Services
         </h3>
+        <img
+          src={penetrationTestingServices}
+          alt="Penetration Testing Services"
+          className="w-auto max-h-[500px] object-cover rounded-lg shadow-md"
+        />
+
         <p>
           We offer a variety of penetration testing and vulnerability assessment
           services — tailored to fit your infrastructure, compliance needs, and

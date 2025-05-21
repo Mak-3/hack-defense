@@ -1,4 +1,4 @@
-import React from "react";
+import cybersecurityStandards from "../../assets/images/services/cybersecurity-standards.jpg";
 
 const GRC = () => {
   return (
@@ -101,6 +101,11 @@ const GRC = () => {
             </p>
           </div>
         </div>
+        <img
+          src={cybersecurityStandards}
+          alt="Cybersecurity Standards and frameworks"
+          className="w-auto max-h-[500px] object-cover rounded-lg shadow-md"
+        />
       </section>
 
       <section className="max-w-4xl mx-auto space-y-8 text-gray-300 text-base md:text-lg leading-relaxed">

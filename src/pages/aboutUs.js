@@ -1,5 +1,6 @@
 import React from 'react'
 import StatsSection from '../components/stats'
+import aboutUsImage from '../assets/images/group-workspace.jpg';
 
 const AboutUs = () => {
   return (
@@ -19,7 +20,7 @@ const AboutUs = () => {
                 </div>
             </div>
             <div class="mt-12 md:mt-0">
-                <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86" alt="About Us Image" class="object-cover rounded-lg shadow-md"/>
+                <img src={aboutUsImage} alt="About Us Image" class="object-cover rounded-lg shadow-md"/>
             </div>
         </div>
     </div>

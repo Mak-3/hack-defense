@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const stats = [
@@ -38,11 +38,9 @@ export default function StatsSection() {
           transition={{ delay: index * 0.2 }}
           className="flex flex-col items-center p-4 bg-white rounded-xl shadow-md w-52"
         >
-          {/* Outlined styled number */}
           <div className="text-5xl font-extrabold text-transparent bg-white bg-clip-text stroke-text mb-2">
             {Math.round(counters[index]).toLocaleString()}+
           </div>
-          {/* Label */}
           <div className="text-center text-gray-600 text-sm font-medium">
             {stat.label}
           </div>
