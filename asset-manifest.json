@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/hack-defence/static/css/main.da2b3047.css",
-    "main.js": "/hack-defence/static/js/main.2d525329.js",
+    "main.css": "/hack-defence/static/css/main.2feb6c5e.css",
+    "main.js": "/hack-defence/static/js/main.09310552.js",
     "static/js/453.db15aafa.chunk.js": "/hack-defence/static/js/453.db15aafa.chunk.js",
+    "static/media/group-workspace.jpg": "/hack-defence/static/media/group-workspace.6d34b2afe9ca204b8ebe.jpg",
+    "static/media/cybersecurity-standards.jpg": "/hack-defence/static/media/cybersecurity-standards.9c3c44bcbaa9f10f189a.jpg",
+    "static/media/data-protection-laws.jpg": "/hack-defence/static/media/data-protection-laws.44ab0705f8d29ff6f4d0.jpg",
+    "static/media/security-assesment.jpg": "/hack-defence/static/media/security-assesment.354b8eb5fbceb3921c2e.jpg",
+    "static/media/penetration-testing-services.jpg": "/hack-defence/static/media/penetration-testing-services.cc33b7fa55b92a96163e.jpg",
+    "static/media/cybersecurity-maturity-framework.jpg": "/hack-defence/static/media/cybersecurity-maturity-framework.5c96bb460fb707b91d22.jpg",
+    "static/media/data-protection.jpg": "/hack-defence/static/media/data-protection.a239d29f4f787fb6684a.jpg",
     "static/media/Oxanium-VariableFont_wght.ttf": "/hack-defence/static/media/Oxanium-VariableFont_wght.50bb18b058c797a89438.ttf",
     "index.html": "/hack-defence/index.html",
-    "main.da2b3047.css.map": "/hack-defence/static/css/main.da2b3047.css.map",
-    "main.2d525329.js.map": "/hack-defence/static/js/main.2d525329.js.map",
+    "main.2feb6c5e.css.map": "/hack-defence/static/css/main.2feb6c5e.css.map",
+    "main.09310552.js.map": "/hack-defence/static/js/main.09310552.js.map",
     "453.db15aafa.chunk.js.map": "/hack-defence/static/js/453.db15aafa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da2b3047.css",
-    "static/js/main.2d525329.js"
+    "static/css/main.2feb6c5e.css",
+    "static/js/main.09310552.js"
   ]
 }
