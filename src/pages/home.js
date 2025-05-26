@@ -4,6 +4,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
+import ScheduleButton from "../components/ScheduleButton";
 
 const HomePage = () => {
 
@@ -30,9 +31,7 @@ const HomePage = () => {
                   Protect your business with the most advanced technologies in
                   the industry.
                 </p>
-                <button className="px-6 py-3 bg-green-400 text-white text-lg font-semibold rounded-lg transition duration-300 hover:bg-green-500">
-                  Learn More
-                </button>
+                <ScheduleButton/>
               </div>
             </div>
           </SwiperSlide>

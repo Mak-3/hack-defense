@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const stats = [
-  { label: "Total Orders", value: 1200 },
-  { label: "Revenue Generated", value: 45000 },
-  { label: "New Customers", value: 320 },
-  { label: "Products Sold", value: 870 },
+  { label: "Years of cyber experience", value: 20 },
+  { label: "Millions of dollars saved", value: 500 },
+  { label: "AI systems protection", value: 100 },
+  { label: "Businesses Defense", value: 100 },
 ];
 
 export default function StatsSection() {

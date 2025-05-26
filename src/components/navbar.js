@@ -1,8 +1,8 @@
 import { useState, useRef, useEffect } from "react";
+import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 
 export default function NavBar() {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownWrapperRef = useRef(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -14,7 +14,7 @@ export default function NavBar() {
         dropdownWrapperRef.current &&
         !dropdownWrapperRef.current.contains(e.target)
       ) {
-        setIsDropdownOpen(false);
+        setIsMenuOpen(false);
       }
     };
 
@@ -28,20 +28,24 @@ export default function NavBar() {
     setIsMenuOpen((prev) => !prev);
   };
 
-  const toggleDropdown = () => {
-    setIsDropdownOpen((prev) => !prev);
-  };
-
   const isActive = (path) => {
     return location.pathname === path;
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50 ">
       <div className="w-full bg-white text-black text-sm py-2 px-4 flex justify-between items-center">
         <div className="flex flex-row flex-wrap gap-4 justify-end w-full">
-          <span>📞 +44 7937 54367</span>
-          <span>✉️ contact@hackdefense.com</span>
+          <span className="flex items-center gap-1">
+            <FaWhatsapp className="text-green-500" /> +44 7937 54367
+          </span>
+          <span className="flex items-center gap-1">
+            <FaEnvelope className="text-red-500" /> contact@hackdefense.org
+          </span>
         </div>
       </div>
       <nav className="bg-opacity-90 backdrop-blur-md border-b-[0.5px] bg-black">
@@ -207,6 +211,7 @@ export default function NavBar() {
 
               <div className="space-y-1 ml-6">
                 <Link
+                  onClick={closeMenu}
                   to="/services/penetration-testing"
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
                     isActive("/services/penetration-testing")
@@ -217,6 +222,7 @@ export default function NavBar() {
                   Penetration Testing
                 </Link>
                 <Link
+                  onClick={closeMenu}
                   to="/services/grc"
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
                     isActive("/services/grc")
@@ -227,6 +233,7 @@ export default function NavBar() {
                   GRC
                 </Link>
                 <Link
+                  onClick={closeMenu}
                   to="/services/cybersecurity-maturity-assessment"
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
                     isActive("/services/cybersecurity-maturity-assessment")
@@ -237,6 +244,7 @@ export default function NavBar() {
                   Cyber Maturity
                 </Link>
                 <Link
+                  onClick={closeMenu}
                   to="/services/data-privacy"
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
                     isActive("/services/data-privacy")
@@ -247,6 +255,7 @@ export default function NavBar() {
                   Data Privacy
                 </Link>
                 <Link
+                  onClick={closeMenu}
                   to="/services/cybersecurity-for-startups"
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
                     isActive("/services/cybersecurity-for-startups")
@@ -257,6 +266,7 @@ export default function NavBar() {
                   Cybersecurity for Startups
                 </Link>
                 <Link
+                  onClick={closeMenu}
                   to="/services/cybersecurity-for-ai"
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
                     isActive("/services/cybersecurity-for-ai")

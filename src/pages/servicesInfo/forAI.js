@@ -2,7 +2,7 @@ import React from "react";
 
 const CybersecurityForAI = () => {
   return (
-    <div className="bg-black text-white px-6 md:px-16 py-12 space-y-12 mt-12">
+    <div className="bg-black text-white px-6 md:px-16 py-12 space-y-12 mt-20">
       <section className="space-y-6 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-4xl font-bold">
           Cybersecurity for AI — Safeguarding Your AI Initiatives

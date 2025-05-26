@@ -7,9 +7,9 @@ const ContactUs = () => {
             Contact Us
           </h1>
           <p className="leading-relaxed text-xl text-gray-600 dark:text-gray-300 mb-6">
-            We're here to assist you. If you have any questions, suggestions, or
-            business inquiries, feel free to reach out via the contact
-            information below.
+            Looking to enhance your security, have questions, or need expert
+            advice? Contact our team for a free consultation and see how we can
+            support your business.
           </p>
 
           <div className="text-lg text-gray-700 dark:text-gray-300 space-y-4">
@@ -23,17 +23,6 @@ const ContactUs = () => {
               </a>
             </p>
             <p>📞 Phone: +44 7937 54367</p>
-            <p>
-              💼 LinkedIn:{" "}
-              <a
-                href="https://www.linkedin.com/company/hack-defense/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-green-500 hover:underline"
-              >
-                https://www.linkedin.com/company/hack-defense/
-              </a>
-            </p>
           </div>
         </div>
       </div>
