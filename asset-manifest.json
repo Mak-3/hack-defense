@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hack-defense/static/css/main.85c5382f.css",
-    "main.js": "/hack-defense/static/js/main.3372cdfb.js",
+    "main.css": "/hack-defense/static/css/main.2f6eb2b7.css",
+    "main.js": "/hack-defense/static/js/main.d8b6b724.js",
     "static/js/453.db15aafa.chunk.js": "/hack-defense/static/js/453.db15aafa.chunk.js",
     "static/media/group-workspace.jpg": "/hack-defense/static/media/group-workspace.6d34b2afe9ca204b8ebe.jpg",
     "static/media/cybersecurity-standards.jpg": "/hack-defense/static/media/cybersecurity-standards.9c3c44bcbaa9f10f189a.jpg",
@@ -12,12 +12,12 @@
     "static/media/data-protection.jpg": "/hack-defense/static/media/data-protection.a239d29f4f787fb6684a.jpg",
     "static/media/Oxanium-VariableFont_wght.ttf": "/hack-defense/static/media/Oxanium-VariableFont_wght.50bb18b058c797a89438.ttf",
     "index.html": "/hack-defense/index.html",
-    "main.85c5382f.css.map": "/hack-defense/static/css/main.85c5382f.css.map",
-    "main.3372cdfb.js.map": "/hack-defense/static/js/main.3372cdfb.js.map",
+    "main.2f6eb2b7.css.map": "/hack-defense/static/css/main.2f6eb2b7.css.map",
+    "main.d8b6b724.js.map": "/hack-defense/static/js/main.d8b6b724.js.map",
     "453.db15aafa.chunk.js.map": "/hack-defense/static/js/453.db15aafa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85c5382f.css",
-    "static/js/main.3372cdfb.js"
+    "static/css/main.2f6eb2b7.css",
+    "static/js/main.d8b6b724.js"
   ]
 }
