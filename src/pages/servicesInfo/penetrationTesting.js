@@ -1,7 +1,7 @@
 import React from "react";
 import penetrationTestingServices from "../../assets/images/services/penetration-testing-services.jpg";
 import securityAssesment from "../../assets/images/services/security-assesment.jpg";
-
+import penetrationTesting from "../../assets/images/services/penetration-testing.png"
 const PenetrationTesting = () => {
   return (
     <div className="bg-black text-white px-6 md:px-16 py-12 space-y-12 mt-20">
@@ -14,6 +14,7 @@ const PenetrationTesting = () => {
           systems, applications, and networks — and fix them before they’re
           exploited.
         </p>
+        <img src={penetrationTesting} alt="Penetration Testing" />
       </section>
 
       <hr className="border-gray-700 max-w-4xl mx-auto" />

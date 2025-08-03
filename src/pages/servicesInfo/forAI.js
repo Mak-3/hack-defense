@@ -1,5 +1,5 @@
 import React from "react";
-
+import cyberSecurityForAI from "../../assets/images/services/AI-based-cybersecurity-services.png"
 const CybersecurityForAI = () => {
   return (
     <div className="bg-black text-white px-6 md:px-16 py-12 space-y-12 mt-20">
@@ -11,6 +11,10 @@ const CybersecurityForAI = () => {
           At Hack Defense, we specialize in evaluating and fortifying the
           cybersecurity posture of AI systems.
         </p>
+        <img
+          src={cyberSecurityForAI}
+          alt="Cybersecurity for AI"
+        />
       </section>
 
       <hr className="border-gray-700 max-w-4xl mx-auto" />

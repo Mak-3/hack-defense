@@ -1,5 +1,5 @@
 import cybersecurityMaturityFramework from "../../assets/images/services/cybersecurity-maturity-framework.jpg";
-
+import cybersecurityAssesment from "../../assets/images/services/complete-cyber-maturity-with-frameworks.png"
 const CybersecurityMaturityAssessment = () => {
   return (
     <div className="bg-black text-white px-6 md:px-16 py-12 space-y-12 mt-20">
@@ -13,6 +13,7 @@ const CybersecurityMaturityAssessment = () => {
           CMMI, ENISA, and C2M2 to identify gaps, benchmark performance, and
           drive continuous improvement.
         </p>
+        <img src={cybersecurityAssesment} alt="Cybersecurity Maturity Assessment" />
       </section>
 
       <hr className="border-gray-700 max-w-4xl mx-auto" />

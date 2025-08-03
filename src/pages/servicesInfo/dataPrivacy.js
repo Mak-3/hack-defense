@@ -1,6 +1,6 @@
 import dataProtection from "../../assets/images/services/data-protection.jpg";
 import dataProtectionLaws from "../../assets/images/services/data-protection-laws.jpg";
-
+import dataPrivacy from "../../assets/images/services/business-data-protection.png"
 const DataPrivacy = () => {
   return (
     <div className="bg-black text-white px-6 md:px-16 py-12 space-y-12 mt-20">
@@ -15,6 +15,10 @@ const DataPrivacy = () => {
           From GDPR to HIPAA and beyond, we help you achieve full compliance
           with international data protection laws.
         </p>
+        <img
+          src={dataPrivacy}
+          alt="Data Privacy"
+        />
       </section>
 
       <hr className="border-gray-700 max-w-4xl mx-auto" />

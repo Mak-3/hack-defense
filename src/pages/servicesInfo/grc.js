@@ -1,4 +1,5 @@
 import cybersecurityStandards from "../../assets/images/services/cybersecurity-standards.jpg";
+import GRCServices from "../../assets/images/services/govern-risk-compliant-service-by-hackdefense.png"
 
 const GRC = () => {
   return (
@@ -11,6 +12,10 @@ const GRC = () => {
           Integrated Governance, Risk & Compliance Solutions tailored to
           optimize performance, mitigate risks, and ensure regulatory adherence.
         </p>
+        <img
+          src={GRCServices}
+          alt="Comprehensive GRC Services"
+        />
       </section>
 
       <hr className="border-gray-700 max-w-4xl mx-auto" />

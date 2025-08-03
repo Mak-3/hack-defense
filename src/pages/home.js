@@ -1,5 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import slide1 from "../assets/images/slide-1.png";
+import slide2 from "../assets/images/slide-2.png";
+import slide3 from "../assets/images/slide-3.png";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -7,16 +10,15 @@ import "swiper/css/effect-fade";
 import ScheduleButton from "../components/ScheduleButton";
 
 const HomePage = () => {
-
   return (
     <div className="">
-      <section className="relative h-screen">
+      <section className="">
         <Swiper
           navigation={true}
           modules={[Navigation]}
-          className="mySwiper h-full"
+          className="mySwiper"
         >
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div
               className="flex items-center justify-center h-full bg-cover bg-center"
               style={{
@@ -34,9 +36,9 @@ const HomePage = () => {
                 <ScheduleButton/>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div
               className="flex items-center justify-center h-full bg-cover bg-center"
               style={{
@@ -78,6 +80,28 @@ const HomePage = () => {
                 </button>
               </div>
             </div>
+          </SwiperSlide> */}
+
+          <SwiperSlide>
+            <img
+              src={slide1}
+              alt="Slide"
+              className="w-full h-auto object-cover"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src={slide2}
+              alt="Slide"
+              className="w-full h-auto object-cover"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src={slide3}
+              alt="Slide"
+              className="w-full h-auto object-cover"
+            />
           </SwiperSlide>
         </Swiper>
       </section>

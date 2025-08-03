@@ -24,7 +24,7 @@ function App() {
           <Route
             path="/"
             element={
-              <>
+              <div className='pt-24'>
                 <section id="home">
                   <HomePage />
                 </section>
@@ -37,7 +37,7 @@ function App() {
                 <section id="contact">
                   <ContactUs />
                 </section>
-              </>
+              </div>
             }
           />
           <Route path="/services/grc" element={<GRC />} />

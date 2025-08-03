@@ -1,4 +1,5 @@
 import React from "react";
+import cyberSecurityForStartups from "../../assets/images/services/cyber-security-services-for-startups.png"
 
 const ForStartups = () => {
   return (
@@ -12,6 +13,10 @@ const ForStartups = () => {
           cybersecurity solutions designed for startups at every stage — from
           MVP to global scale.
         </h2>
+        <img
+          src={cyberSecurityForStartups}
+          alt="Cybersecurity for Startups"
+        />
       </section>
 
       <hr className="border-gray-700 max-w-4xl mx-auto" />
