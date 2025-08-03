@@ -1,9 +1,18 @@
 {
   "files": {
-    "main.css": "/hack-defense/static/css/main.2f6eb2b7.css",
-    "main.js": "/hack-defense/static/js/main.d8b6b724.js",
+    "main.css": "/hack-defense/static/css/main.d9c8a405.css",
+    "main.js": "/hack-defense/static/js/main.10bce76c.js",
     "static/js/453.db15aafa.chunk.js": "/hack-defense/static/js/453.db15aafa.chunk.js",
+    "static/media/govern-risk-compliant-service-by-hackdefense.png": "/hack-defense/static/media/govern-risk-compliant-service-by-hackdefense.e5078bd8f72a26c5d601.png",
+    "static/media/business-data-protection.png": "/hack-defense/static/media/business-data-protection.28eb42dd4dcc2164e638.png",
+    "static/media/slide-2.png": "/hack-defense/static/media/slide-2.21f4fae1074fd1f1ed76.png",
+    "static/media/slide-1.png": "/hack-defense/static/media/slide-1.a6ad7f0a986cefc1115a.png",
     "static/media/group-workspace.jpg": "/hack-defense/static/media/group-workspace.6d34b2afe9ca204b8ebe.jpg",
+    "static/media/complete-cyber-maturity-with-frameworks.png": "/hack-defense/static/media/complete-cyber-maturity-with-frameworks.9fbfa75ed1ac73aded29.png",
+    "static/media/cyber-security-services-for-startups.png": "/hack-defense/static/media/cyber-security-services-for-startups.851d859a8da471e479fc.png",
+    "static/media/slide-3.png": "/hack-defense/static/media/slide-3.bb95cafdfc93c6e68199.png",
+    "static/media/AI-based-cybersecurity-services.png": "/hack-defense/static/media/AI-based-cybersecurity-services.b1165ac344651be2862e.png",
+    "static/media/penetration-testing.png": "/hack-defense/static/media/penetration-testing.cd3001d9e9743762f233.png",
     "static/media/cybersecurity-standards.jpg": "/hack-defense/static/media/cybersecurity-standards.9c3c44bcbaa9f10f189a.jpg",
     "static/media/data-protection-laws.jpg": "/hack-defense/static/media/data-protection-laws.44ab0705f8d29ff6f4d0.jpg",
     "static/media/security-assesment.jpg": "/hack-defense/static/media/security-assesment.354b8eb5fbceb3921c2e.jpg",
@@ -12,12 +21,12 @@
     "static/media/data-protection.jpg": "/hack-defense/static/media/data-protection.a239d29f4f787fb6684a.jpg",
     "static/media/Oxanium-VariableFont_wght.ttf": "/hack-defense/static/media/Oxanium-VariableFont_wght.50bb18b058c797a89438.ttf",
     "index.html": "/hack-defense/index.html",
-    "main.2f6eb2b7.css.map": "/hack-defense/static/css/main.2f6eb2b7.css.map",
-    "main.d8b6b724.js.map": "/hack-defense/static/js/main.d8b6b724.js.map",
+    "main.d9c8a405.css.map": "/hack-defense/static/css/main.d9c8a405.css.map",
+    "main.10bce76c.js.map": "/hack-defense/static/js/main.10bce76c.js.map",
     "453.db15aafa.chunk.js.map": "/hack-defense/static/js/453.db15aafa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f6eb2b7.css",
-    "static/js/main.d8b6b724.js"
+    "static/css/main.d9c8a405.css",
+    "static/js/main.10bce76c.js"
   ]
 }
